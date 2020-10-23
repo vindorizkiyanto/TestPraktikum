@@ -10,7 +10,6 @@ class Home extends BaseController
 	{
 		$data['nama']='Vindo RizkiYanto';
 		$data['jurusan']='Ilmu Komputer';
-
 		echo view('mahasiswa/header', $data);
 		echo view('mahasiswa/index', $data);
 		echo view('mahasiswa/footer', $data);
